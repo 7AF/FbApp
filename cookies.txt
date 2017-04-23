@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.bitnet.si	TRUE	/	FALSE	1999999999	__cfduid	d6a8cc6aaedfd5bdda30ccfabd4c7f41c1492544976
+coffee.bitnet.si	TRUE	/	FALSE	1999999999	PHPSESSID	b843e4a09ba6fb9747fef1fd5eaca078
+

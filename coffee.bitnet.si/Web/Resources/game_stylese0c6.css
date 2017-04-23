@@ -1,0 +1,1283 @@
+/* IE fixes */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#clickWheelMessage {
+		left: 15px;
+	}
+
+	#bottomElementsTransition {
+		bottom: 0;
+		left: 1px;
+	}
+	
+	#upperElementsTransition
+	{
+		left: 1px !important;
+	}
+	
+	#nextButton {
+		margin: 25px 75px 64px 75px !important
+	}
+	
+	#crticeDIV {
+		
+		top: 0 !important;
+		position: relative !important;
+	}
+
+	#rotateBtn {
+		outline: none;
+		margin-top: 50px;
+		margin-left: 15px;
+	}
+}
+
+/* mobile page */
+@media screen and (max-width: 768px)
+{
+	#startPageDIV {
+		width: 100% !important;
+		height: auto !important;
+		min-height: 100vh;
+		background: #1472b2 !important;
+	}
+	
+	#upperElementsTransition 
+	{
+		width: 98% !important;
+		left: 1% !important;
+	}
+	
+	#bottomElementsTransition
+	{
+		width: 98% !important;
+		left: 1% !important;
+	}
+	
+	#mainContentDIV
+	{
+		flex-direction: column-reverse;
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+	}
+	
+	#discountMessageContainer
+	{
+		width: 100%;
+		margin: 20px auto 10px auto !important;
+	}
+	
+	#BarcelonaDescription, #ParizDescription, #BerlinDescription {
+		 position: absolute;
+		 width: auto;
+		 color: white;
+		 background: rgb(40, 67, 129);
+		 font-family: HelveticaBD;
+		 padding: 5px;
+		 margin: -5px 10px 0 15px !important;
+		 cursor: pointer;
+		 z-index: 10;
+	}
+	
+	#pageHeader
+	{
+		height: 100px !important;
+	}
+	
+	#agreeWithRulesContainer
+	{
+		height: 35px;
+		width: auto !important;
+	}
+	
+	.verticalLineSeparatorContainer
+	{
+		display: none !important;
+	}
+	
+	#thanksMessage
+	{
+		margin-top: 80px !important;
+	}
+	
+	#nextButton
+	{
+		width: 100% !important;
+	}
+	
+	#downloadDiscount
+	{
+		display: flex !important;
+		height: auto !important;
+	}
+	
+	#downloadDiscount i {
+	    display: flex;
+	    margin-right: 20px;
+	    align-items: initial;
+	}
+	
+	#bountyProvideMessage {
+	    font-weight: bold;
+	    font-size: 16px;
+	    margin-top: 10px;
+	    width: 70% !important;
+	    text-align: center;
+	}
+	
+	.verticalLineCircle
+	{
+		display: none !important;
+	}
+	
+	.locationContainer
+	{
+		margin-bottom: 15px !important;
+	}
+	
+	#locationsContainer
+	{
+		flex-direction: column;
+	}
+	
+	#joinMessage
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 20px;
+		margin-bottom: 20px !important;
+		margin-top: 15px !important;
+		font-size: 18px;
+		color: rgb(40, 67, 129);
+	}
+	
+	.bottomStyleBackgroundWinner
+	{
+		height: 230px !important;
+	}
+	
+	.nextButtonSubmitDataContainerWinner
+	{
+		height: 225px !important;
+	}
+	
+	#mobileLineSeparator
+	{
+		width: 100%;
+		display: flex;
+		margin-top: 30px;
+	}
+	
+	.dotStart
+	{
+		width: 3px;
+		height: 3px;
+		background: #1472b2;
+		border: 3px solid #1472b2;
+		border-radius: 50%;
+	}
+	
+	.verticalLineSeparatorContent
+	{
+		border: 1px solid #1472b2;
+		width: 100%;
+		height: 1px;
+		margin: auto;
+	}
+	
+	.dotEnd
+	{
+		width: 3px;
+		height: 3px;
+		background: #1472b2;
+		border: 3px solid #1472b2;
+		border-radius: 50%;
+	}
+	
+	#crticeDIV
+	{
+		top: 12px !important;
+		right: 15px;
+		margin: 20px !important;
+		margin-right: 0 !important;
+	}
+	
+	.lineDIVStartPageMobile
+	{
+		bottom: -4% !important;
+		left: 53% !important;
+	}
+	
+	#returnToStartButton
+	{
+		width: 90% !important;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		padding: 15px 15px 10px 15px !important;
+	}
+	
+	#wheelContainer
+	{
+		margin: auto;
+	}
+	
+	#clickWheelMessage
+	{
+		bottom: -65px !important;
+		/* left: 29% !important; */
+		left: 0 !important;
+		right: 0;
+		margin: 0 auto;
+		width: 200px;
+		text-align: center;
+		line-height: normal;
+	}
+	
+	#rotateBtn
+	{
+		margin-left: 0 !important;
+		margin-top: 70px !important;
+	}
+	
+	#rotateMessage
+	{
+		margin-left: 0 !important;
+	}
+
+	.bottomDivUserFormData {
+		margin-left: 0px !important; 
+		margin-right: 0px !important;
+	}
+	
+	#moreLuckNextTimeMessage
+	{
+		margin-top: 100px !important;
+	}
+	
+	#mainAwardMessage
+	{
+		margin-top: 180px !important;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	#invitationPageContainer
+	{
+		height: auto !important;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	.moveDownSlotMachineContainer
+	{
+		margin-top: 150px !important;
+	}
+	
+	.moveDownSlotMachineContainerWinner
+	{
+		margin-top: 120px !important;
+	}
+	
+	#slotMachineContainer
+	{
+		width: 100% !important;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	
+	#slotMachineContainer #reels
+	{
+		width: 100%;
+		justify-content: center;
+	}
+	
+	#slotMachineContainer #reels canvas
+	{
+		width: 33%;
+		position: relative;
+		border: 1px solid #1472b2;
+	}
+	
+	#bottomDataContainer
+	{
+		flex-direction: column;
+		margin: 15px !important;
+	}
+	
+	#cityToTravelMessage {
+	    width: 240px;
+	    color: rgb(40, 67, 129);
+	    font-size: 19px;
+	    font-family: HelveticaBD;
+	    text-align: center;
+	    margin: 0px auto 0px auto !important;
+	    line-height: 0.9;
+	    font-family: HelveticaBD;
+	}
+	
+	#participationFillFieldsMessage
+	{
+		margin: 80px 30px 0 30px !important;
+		font-size: 21px !important;
+		width: 100% !important;
+	}
+	
+	#message
+	{
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 15px !important;
+	}
+	
+	#congratulationMessage
+	{
+		margin-top: 100px !important;
+	}
+	
+	#messageAboutAward
+{
+	margin-top: 150px !important;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+	
+	#circleDIV
+	{
+		
+		background-position: -163px 163px !important;
+	}
+	
+	.lineDIVMargin
+	{
+		margin-bottom: 113px !important;
+		margin-left: 80px !important;
+	}
+	
+	.circleDIVMargin
+	{
+		margin-bottom: 70px !important;
+	}
+	
+	#lineDIV
+	{
+		bottom: -20px;
+	}
+	
+	.bottomStyleBackgroundExpand
+	{
+		height: 195px !important;
+	}
+	
+	#citiesContainer
+	{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	
+	#agreeWithRulesContainer
+	{
+		width: 100% !important;
+		display: flex !important;
+		justify-content: flex-start !important;
+	}
+	
+	#agreeWithRules
+	{
+		width: auto !important;
+		margin-left: 0 !important;
+	}
+	
+	#ParizImage, #BerlinImage, #BarcelonaImage
+	 {
+	    background-image: url(Pariz.png);
+	    background-repeat: no-repeat;
+	    background-position: 0% 0%;
+	    background-size: cover !important;
+	    width: 95% !important;
+   	    margin: 10px auto;
+	    max-width: 355px !important;
+	    height: 94px !important;
+	    cursor: pointer;
+
+ 	}
+ 	
+ 	#Barcelona, #Pariz, #Berlin {
+	    max-width: 355px !important;
+	    width: 100% !important;
+	    height: 94px !important;
+	    margin: 10px auto !important;
+		margin-top: 30px !important;
+	}
+	
+	#userDataForm
+	{
+		max-width: 340px;
+	    width: 95% !important;
+	    margin: 0 auto !important;
+	    display: flex;
+	    flex-direction: column;
+	}
+	
+	#sendButton {
+		width: 100% !important;
+		margin: 0px !important;
+	}
+	
+	.userDataFormInputMobile
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100% !important;
+	}
+	
+	.moveDownNextButtonSubmitDataContainer
+	{
+		top: 180px !important;
+	}
+	
+	.expandAreaInputFormCities
+	{
+		height: 560px !important;
+	}
+	
+	.expandAreaInputFormDestinationSelected
+	{
+		height: 855px !important;
+	}
+	
+	#userDataContainer
+	{
+		flex-direction: column !important;
+		float: left !important;
+		width: 100% !important;
+	}
+	
+	.blue-btn-game-long {
+	    background-image: -moz-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+	    background-image: -webkit-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+	    background-image: -ms-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+	    border: none;
+	    color: white;
+	    text-align: left !important;
+	    text-decoration: none;
+	    display: inline-block !important;
+	    padding: 10px 5px 5px 20px !important;
+	    font-size: 18px;
+	    margin: 4px 2px 4px 2px;
+	    cursor: pointer;
+	    line-height: 1.2;
+	    width: 100% !important;
+	    height: 60px !important;
+	    max-width: 400px !important;
+	    font-family: HelveticaTH, HelveticaLT;
+	    letter-spacing: 1px;
+	}
+}
+
+#startPageDIV {	
+    position: relative;
+    margin: 0 auto;
+    height: 560px;
+    width: 100%;
+    max-width: 810px;
+    background-image: url(background.png);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow: hidden;
+}
+		
+.sensodyneLaboratoryMessage
+{
+	font-family: HelveticaBD;
+}
+
+#participantForm
+{
+	margin-top: 35px;
+}
+
+#returnToStartButton
+{
+	margin-top: 15px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#pageHeader
+{
+	display: flex;
+	height: 130px;
+}
+
+#mainContentDIV{
+	display: flex;
+}
+
+#messageAboutAward
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+	position: absolute;
+	width: 100%;
+	font-size: 18px;
+}
+
+#congratulationMessage
+{
+	width: 100%;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-family: HelveticaBD;
+}
+
+#bottomStyleBackground
+{
+	height: 80px;
+}
+
+#mainAwardMessage
+{
+	color: white;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	font-size: 18px;
+}
+
+#locationsContainer
+{
+	display: flex;
+}
+
+.locationData
+{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon
+{
+	margin-top: 10px;
+}
+
+.locationContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.horizontalLineLocation
+{
+	background-image: url("horizontalLine.png");
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	height: 1px;
+	width: 33px;
+	margin-bottom: 5px;
+}
+
+.verticalLineSeparatorContainer
+{
+	display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 120px;
+}
+
+.verticalLine
+{
+	border-left: 1px solid #1472b2;
+}
+
+.verticalLineCircle
+{
+	width: 3px;
+    height: 3px;
+    background: #1472b2;
+    border: 3px solid #1472b2;
+	position: absolute;
+	margin-top: 120px;
+	border-radius: 50%;
+}
+
+.spinning {
+		-webkit-animation: spin 1s linear infinite;
+		-moz-animation: spin 1s linear infinite;
+		animation: spin 1s linear infinite;
+	}
+	@-moz-keyframes spin {
+		100% {
+			-moz-transform: rotate(360deg);
+		}
+	}
+	@-webkit-keyframes spin {
+		100% {
+			-webkit-transform: rotate(360deg);
+		}
+	}
+	@keyframes spin {
+		100% {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+
+.blue-btn-game
+{
+    background-image: -moz-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    background-image: -webkit-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    background-image: -ms-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block !important;
+    font-size: 18px;
+    margin: 4px 2px 4px 2px;
+    cursor: pointer;
+    line-height: 1.2;
+    width: 180px;
+    height: 40px;
+    font-family: HelveticaTH, HelveticaLT;
+    letter-spacing: 1px;
+}
+
+
+
+.blue-btn-game i
+{
+	    margin-left: 15px;
+    font-size: 2em;
+    vertical-align: sub;
+}
+
+.blue-btn-game-long
+{
+    background-image: -moz-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    background-image: -webkit-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    background-image: -ms-linear-gradient( -49deg, rgb(43, 73, 140) 0%, rgb(0, 164, 230) 100%);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block !important;
+    font-size: 18px;
+    margin: 4px 2px 4px 2px;
+    cursor: pointer;
+    line-height: 1.2;
+    width: 60%;
+    height: 40px;
+    font-family: HelveticaTH, HelveticaLT;
+    letter-spacing: 1px;
+}
+
+.blue-btn-game-long i
+{
+    margin-left: 15px;
+    font-size: 2em;
+    vertical-align: sub;
+}
+
+#sensodynePasta
+{
+    background-repeat: no-repeat;
+    background-image: url(pasta_shadows.png);
+    background-position: 0% 0%;
+    max-width: 362px;
+    height: 171px;
+    margin: auto;
+    margin-top: -60px;
+    background-size: contain;
+    width: 95%;
+}
+
+#sensodynePastaContainer
+{
+    height: auto;
+    position: absolute;
+    margin-top: -50px;
+    width: 100%;
+    background: white;
+    z-index: -1;
+}
+
+#positionArrow
+{
+	background-image: url("position.png");
+	width: 218px;
+	height: 145px;
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 48px;
+	margin-left: 15px;
+	margin-top: 104px;
+	background-position: 0% 0%;
+}
+
+#meterContainer
+{
+	background-image: url("ruler.png");
+	position: absolute;
+	right: 15px;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	margin-top: -15px;
+	width: 75px;
+        height: 355px;
+}
+
+#wheelContainer
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 242px;
+	width: 200px;
+}
+
+#clickWheelMessage
+{
+	position: absolute;
+    bottom: -35px;
+    left: 20px;
+    right: 0px;
+    color: white;
+    font-size: 19px;
+}
+
+#logoDIV
+{
+	margin: auto;
+	background-image: url("logo.png");
+	width: 218px;
+	height: 70px;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+#logo1DIV
+{
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-image: url("logo1.png");
+	width: 128px;
+	height: 39px;
+	position: absolute;
+	margin: 20px;
+}
+
+#crticeDIV{
+	background-image: url("crtice1.png");
+	width: 117px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	top: 140px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+#circleDIV{
+	position: absolute;
+	bottom: 0;
+	background-image: url("circle.png");
+	width: 332px;
+	height: 332px;
+	background-repeat: no-repeat;
+	background-position: -132px 175px;
+	z-index: -1;
+}
+
+#chartDIV
+{
+	background-image: url("crtice2.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	right: 3%;
+	position: absolute;
+	bottom: 3%;
+	height: 76px;
+	width: 152px;
+}
+
+#lineDIV{
+	position: absolute;
+	bottom: 3%;
+	left: 30%;
+	background-image: url("line.png");
+	width: 304px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+#rotateBtn{
+	outline: none;
+	margin-top: 40px;
+	margin-left: 15px;
+}
+
+#rotateMessage
+{
+	color: white;
+	font-size: 19px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#invitationPageContainer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	color: rgb(40, 67, 129);
+}
+
+#discountMessageContainer {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px auto 10px auto;
+    font-family: HelveticaBD;
+}
+
+.normalFontWeight
+{
+	font-family: HelveticaLT;
+	display: inline;
+}
+
+#bountyProvideMessage
+{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#joinMessage
+{
+	white-space: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align:center;
+}
+
+#message
+{
+	width: 400px;
+	color: rgb(40, 67, 129);
+	font-size: 18px;
+	margin: auto;
+}
+
+#slotMachineContainer
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 242px;
+    padding: 1px;
+    border-width: 5px;
+    border: 5px solid rgba(255,255,255,0.6);
+    -moz-background-clip: border;
+    -webkit-background-clip: border;
+    background-clip: border-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#nextButton
+{
+	margin: auto;
+}
+
+#nextButtonSubmitDataContainer
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background: white;
+	opacity: 0.9;
+}
+
+.nextButtonContainerStyle
+{
+	height: 180px;
+}
+
+#citiesContainer {
+    margin-left: 15px;
+}
+
+.showDataPanel 
+{
+	height: 100%;
+	top: 105px;
+}
+
+#container #buttons
+{
+	margin-top:3px;
+}
+
+#container #buttons #play 
+{
+	font-family: 'Slackey'; 
+	position:absolute;
+	bottom:10px;
+	left:30px;
+	right:30px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	border-radius:10px;
+	background-size:auto 62px;
+}
+
+#agreeWithRules
+{
+	width: 100%;
+	margin-right: 5px;
+	margin-bottom: 95px;
+	margin-left: 160px;
+}
+
+#agreeWithRulesContainer
+{
+	margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.bottomDivUserFormData
+{
+	color: rgb(40, 67, 129);
+	display: flex;
+	flex-direction: column;
+}
+.navRulesParticipation
+{
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+#sendButton
+{
+	width: 230px;
+	margin: auto;
+	margin-right: 0;
+}
+
+#sendDataButton
+{
+	background: linear-gradient(to right, #1472b2, #aabed0);
+}
+
+#bottomDataContainer
+{
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+}
+
+.bottomDataContainerWinner
+{
+	margin: 20px !important;
+}
+
+#slotMachineContainer #reels
+{
+	display:flex;
+	position:relative;
+	height: 230px;
+	overflow: hidden;
+	background: #1472b2;
+	margin-left: -1px;
+}
+
+#container #reels canvas
+{
+	width: 128px;
+	height: 300px;
+	position: relative;
+}
+
+#thanksMessage
+{
+	width: 265px;
+	font-size: 35px;
+	color: white;
+	font-family: HelveticaBD;
+	line-height: normal;
+	text-align: center;
+	margin: auto;
+}
+
+#container #overlay 
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	opacity: 0.3;
+	background-image: -moz-linear-gradient(#555,#fff,#fff,#555);
+	background-image: -webkit-gradient(linear, 0 25%, 0 100%, from(grey), color-stop(0.5, white), to(grey));
+	display: none;
+}
+
+#container #overlay #winline 
+{	
+	width: 100%;
+	height: 5px;
+	background: red;	
+	position: relative;
+	top: 50%;
+}
+
+#reels #results
+{
+	display: none;
+	background: white;
+	border: 3px solid gold;
+	height: 120px;
+	width: 250px;
+	left: 20px;
+	top: 15px;
+	position: absolute;
+	font-size: x-large;
+}
+
+.whiteSpaceBlock
+{
+	white-space: pre;
+}
+
+#moreLuckNextTimeMessage
+{
+	line-height: normal;
+	color: white;
+	font-size: 32px;
+	width: 256px;
+	font-family: HelveticaBD;
+	margin: auto;
+	text-align: center;
+}
+
+.imgSelected{
+	box-shadow: 0px 6px 8px 1px #808080;
+}
+
+#userDataForm
+{
+	margin-top: 50px;
+	margin-right: 30px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+#participationFillFieldsMessage
+{
+	font-family: HelveticaBD;
+	color: white;
+	font-size: 26px;
+	width: 430px;
+	text-align: center;
+	margin: auto;
+}
+
+#userDataForm div
+{
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.userInputStyleWithAttribute
+{
+	margin: auto 10px auto auto !important;
+	margin-right: 15px;
+	color: rgb(40, 67, 129);
+	font-size: 18px;
+}
+
+#userDataForm div input
+{
+	width: 230px;
+	border: 1px solid #1472b2;
+	padding: 3px 5px;
+	color: rgb(40, 67, 129);
+	-webkit-input-placeholder {
+		color: rgb(40, 67, 129);
+	}
+}
+
+::-webkit-input-placeholder { / WebKit, Blink, Edge /
+    color: rgb(40, 67, 129); !important;
+}
+:-moz-placeholder { / Mozilla Firefox 4 to 18 /
+   color: rgb(40, 67, 129); !important;
+}
+::-moz-placeholder { / Mozilla Firefox 19+ /
+   color: rgb(40, 67, 129); !important;
+}
+:-ms-input-placeholder { / Internet Explorer 10-11 /
+   color: rgb(40, 67, 129); !important;
+}
+
+#cityToTravelMessage {
+    width: 240px;
+    color: rgb(40, 67, 129);
+    font-size: 19px;
+    font-family: HelveticaBD;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    line-height: 0.9;
+    font-family: HelveticaBD;
+}
+
+#results #score 
+{
+	margin: 5px;
+}
+
+#results #score img 
+{
+	vertical-align: middle;
+}
+
+#canvas1, #canvas2, #canvas3, #canvas4
+{
+	margin-top: 6px;
+}
+
+#upperElementsTransition 
+{
+	width: 99.5%;
+	height: 52px;
+	position: absolute;
+	left: 0.5%;
+	background: #1472b2;
+	z-index: 1;
+	top: -5px;
+	opacity: 0.8;
+	background: linear-gradient(#1472b2, white);
+	border-radius: 4px;
+}
+
+#Barcelona, #Pariz, #Berlin
+{
+	margin-top: 30px;
+}
+
+#BarcelonaImage
+{
+	background-image: url("Barcelona.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	width: 355px;
+	height: 94px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#ParizImage
+{
+	background-image: url("Pariz.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	width: 355px;
+	height: 94px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#BerlinImage
+{
+	background-image: url("Berlin.png");
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	width: 355px;
+	height: 94px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#BarcelonaDescription, #ParizDescription, #BerlinDescription
+{
+	position: absolute;
+	width: auto;
+	color: white;
+	background: rgb(40, 67, 129);
+	font-family: HelveticaBD;
+	padding: 5px;
+	margin: -15px 10px 0 10px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+#userDataContainer
+{
+	height: 100%;
+	display: flex;
+	margin: 15px 0px 0px 0px;
+	flex-direction: row;
+}
+
+#bottomElementsTransition 
+{
+	position: absolute;
+	width: 99.5%;
+	height: 52px;
+	bottom: -5px;
+	left: 0.5%;
+	background: #1472b2;
+	opacity: 0.8;
+	background: linear-gradient(white, #1472b2);
+	border-radius: 4px;
+}
+
+.hide-element
+{
+	visibility: hidden;
+}
+
+.containerCollapse
+{
+	height: 0 !important;
+}
+
+.opacity7{
+	opacity: 0.7;
+}
